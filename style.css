@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: CareemSans, Sans, sans-serif;
 }
 nav {
     display: flex;
@@ -11,14 +12,14 @@ nav {
   margin-left: 30px;
   height: 25px
 }
-ul {
+nav ul {
     margin-top: 35px;
     margin-left: 80px;
     display: flex;
     list-style-type: none;
     gap: 30px;
 }
-li {
+nav li {
     font-weight: 600;
     color: rgb(45, 46, 46);
     font-family: Inter, sans-serif;
@@ -26,7 +27,7 @@ li {
     display: block;
     transition: .5s;
 }
-li::after {
+nav li::after {
     content: "";
     display: block;
     height: 2px;
@@ -36,10 +37,10 @@ li::after {
     transition: transform 0.3s ease;
     transform-origin: left;
 }
-li:hover {
+nav li:hover {
     color: rgb(0, 235, 121);
 }
-  li:hover::after {
+  nav li:hover::after {
     transform: scale(1);
   }
 .btn {
@@ -101,10 +102,10 @@ iframe {
     margin-left: 10rem;
     font-size: 16px;
     font-family: Inter, sans-serif;
+    font-weight: 400;
 }
 .flex {
     margin-left: 15rem;
-
 }
 .flexbox3 {
     display: flex;
